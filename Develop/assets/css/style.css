@@ -1,0 +1,48 @@
+:root {
+    --lightblue:rgba(0, 225, 255, 0.918);
+    --db:rgb(55, 53, 64);
+    --margin: 10px;
+  }
+
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.header {
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: var(--db);
+    padding: 20px;
+    color:black;
+}
+
+header h1 {
+    font-size: 50px;
+    display: inline-block;
+    background-color:var(--lightblue);
+    padding-left: 200px;
+    padding-right: 30px;
+    border-radius: 10px;
+}
+
+header ul {
+    float:right;
+    margin-right: 150px;
+    padding-top: 15px;
+}
+
+header ul li {
+    display: inline-block;
+
+}
+
+header ul li a {
+    font-size: 25px;
+    color:var(--lightblue);
+    padding: 10px;
+    text-underline-offset: 10px;
+}
