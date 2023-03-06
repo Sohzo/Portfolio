@@ -117,6 +117,29 @@ a img {
     margin: 10px;
 }
 
+a img:hover {
+    opacity: 0.5;
+}
+
+
+.overlay1 {
+    position:absolute;
+    bottom: 0;
+    background-color: var(--lightblue);
+    font-size: 50px;
+    margin-left: 20px;
+    color: var(--db);
+}
+
+.overlay2 {
+    position:absolute;
+    bottom: 0;
+    background-color: var(--lightblue);
+    font-size: 50px;
+    margin-left: 20px;
+    color: var(--db);
+}
+
 footer {
     font-size: 30px;
     color: var(--db);
