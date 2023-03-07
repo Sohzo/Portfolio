@@ -89,7 +89,7 @@ main {
 
 .work {
     display:flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     flex:1;
     margin-right: 15%;
     margin-left: 15%;
@@ -124,7 +124,7 @@ a img:hover {
 
 
 .overlay {
-    position:absolute;
+    /*position:absolute;*/
     bottom: 0;
     background-color: var(--lightblue);
     font-size: 50px;
@@ -134,26 +134,29 @@ a img:hover {
 
 
 footer {
-    display:flex;
-    flex-wrap: wrap;
     font-size: 30px;
     color: var(--db);
     padding-right: 2%;
-    margin-left: 12.8%;
+    margin-left: 12%;
     margin-bottom: 3%;
+    padding: 70px 0;
     
 }
 
 footer h2 {
     border-right: 4px solid var(--db);
-    margin-right: 90%;
     display: inline-block;
+    padding-right: 10px;
+}
+
+footer ul {
+    display: inline;
 }
 
 
-footer li {
+footer ul li {
     display: inline;
-    margin-left: 20%;
+    margin-left: 15%;
     text-decoration: underline;
     color: var(--db);
     text-underline-offset: 10px;
