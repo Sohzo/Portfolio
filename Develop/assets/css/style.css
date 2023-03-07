@@ -13,21 +13,30 @@
 
 
 .header {
+    display: flex;
+    flex-wrap: wrap;
     font-family:Arial, Helvetica, sans-serif;
     background-color: var(--db);
     padding: 20px;
     color:black;
+    justify-content: center;
 }
 
 header h1 {
     font-size: 50px;
     display: inline-block;
     background-color:var(--lightblue);
-    padding-left: 200px;
+    padding-left: 30px;
     padding-right: 30px;
     border-radius: 10px;
 }
 
+header img {
+    width: 3%;
+    display: inline;
+    border-radius: 10px;
+    padding-left: 5px;
+}
 
 header nav {
     float:right;
@@ -61,6 +70,7 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: left;
+    height: 100%;
 }
 
 .aboutme {
@@ -89,7 +99,7 @@ main {
 
 .work {
     display:flex;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
     flex:1;
     margin-right: 15%;
     margin-left: 15%;
@@ -109,6 +119,9 @@ main {
     flex-wrap:wrap;
     padding-left:100px;
     flex-grow: 1;
+    height: 800px;
+    width: 700px;
+    
 }
 a img {
     width: 700px;
